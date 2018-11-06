@@ -73,7 +73,7 @@ cd "/var/www/html/${PROJECTFOLDER}"
 composer install
 
 # install node.js and npm
-sudo apt-get install nodejs
+# sudo apt-get install nodejs
 
 # run SQL statements from install folder
 sudo mysql -h "localhost" -u "root" "-p${PASSWORD}" < "/var/www/html/${PROJECTFOLDER}/application/_installation/01-create-database.sql"
